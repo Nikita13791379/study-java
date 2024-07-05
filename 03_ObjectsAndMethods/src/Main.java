@@ -1,8 +1,12 @@
 public class Main {
-
     public static void main(String[] args) {
-        Basket basket = new Basket();
-        basket.add("Milk", 40);
-        basket.print("Milk");
+
+
+        Product product = new Product("молоко", 56);
+        Order order = new Order();
+        order.addProduct(product);
+
+        System.out.println(product);
     }
 }
+

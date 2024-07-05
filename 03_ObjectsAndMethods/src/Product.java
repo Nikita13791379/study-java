@@ -1,6 +1,14 @@
 public class Product {
-    private final String name;
-    private final int price;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    private String name;
+    private int price;
 
     public Product(String name, int price) {
         this.name = name;
